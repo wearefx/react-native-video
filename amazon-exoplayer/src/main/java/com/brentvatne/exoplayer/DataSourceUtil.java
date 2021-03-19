@@ -35,7 +35,7 @@ public class DataSourceUtil {
 
     public static String getUserAgent(ReactContext context) {
         if (userAgent == null) {
-            userAgent = Util.getUserAgent(context, "ReactNativeVideo");
+            userAgent = Util.getUserAgent(context, "EurosportPlayer/Android_TV");
         }
         return userAgent;
     }
